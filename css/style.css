@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Roboto:ital,wght@1,300&display=swap");
+body {
+  background-color: #ccc;
+}
+
+.header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.reg {
+  margin-top: 10px;
+  max-width: 500px;
+  margin: 15px auto 20px;
+  padding: 20px;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+input[type=text],
+input[type=email],
+input[type=password] {
+  width: 95%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid rgb(0, 0, 0);
+  margin-bottom: 20px;
+}
+
+input[type=submit] {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #1a1a1a;
+}
+
+.btn {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #1a1a1a;
+}
+
+.error {
+  color: #ff0000;
+  margin-bottom: 10px;
+}
+
+body {
+  background-color: #ccc;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container_nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #333;
+  color: #ccc;
+  height: 60px;
+  padding: 0 20px;
+}
+.container_nav .nav-left h1 {
+  margin: 0;
+  font-size: px;
+  font-weight: 600;
+  display: inline-block;
+}
+.container_nav .nav-left h2 {
+  margin: 0;
+  display: inline-block;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+}
+.container_nav .nav-right h1 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 600;
+}
+.container_nav .btn_reg {
+  background-color: #ccc;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.container_nav .btn_reg:hover {
+  color: #333;
+}
+
+.card {
+  background-color: #333;
+  color: #ccc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 10px;
+  width: calc(33.33% - 20px);
+  height: 320px;
+  float: left;
+  margin-right: 10px;
+  margin-left: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.card .card-body {
+  padding: 15px;
+}
+.card .card-body .card-text {
+  font-size: 30px;
+  font-family: Arial, sans-serif;
+}
+.card .card-body .btn-outline-secondary {
+  color: #ccc;
+  border-color: #ccc;
+  font-size: 27px;
+  margin: 80px 90px 100px 120px;
+}
+.card .card-body .text-body-secondary {
+  color: #ccc;
+}

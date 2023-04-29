@@ -1,0 +1,220 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Roboto:ital,wght@1,300&display=swap");
+body {
+  background-color: #ccc;
+}
+
+.header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.reg {
+  margin-top: 10px;
+  max-width: 500px;
+  margin: 15px auto 20px;
+  padding: 20px;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+input[type=text],
+input[type=email],
+input[type=password] {
+  width: 95%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid rgb(0, 0, 0);
+  margin-bottom: 20px;
+}
+
+input[type=submit] {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #1a1a1a;
+}
+
+.btn {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #1a1a1a;
+}
+
+.error {
+  color: #ff0000;
+  margin-bottom: 10px;
+}
+
+body {
+  background-color: #f2f2f2;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Set max-width for the main container */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Style for the news card container */
+.conteiner_card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+  word-wrap: break-word;
+}
+
+/* Style for the news title */
+.conteiner_card p:first-child {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Style for the news content */
+.conteiner_card p:nth-child(2) {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/* Style for the news meta information */
+.conteiner_card small {
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* Style for the news author name */
+.conteiner_card small:last-child {
+  font-style: italic;
+}
+
+/* Style for the comment container */
+.container_comment {
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+/* Style for the comment author name */
+.container_comment h5 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+/* Style for the comment content */
+.container_comment p {
+  font-size: 20px;
+  line-height: 1.6;
+  margin-bottom: 5px;
+}
+
+/* Style for the comment meta information */
+.container_comment small {
+  display: block;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+/* Style for the comment buttons */
+.btn_comment {
+  background-color: #f2f2f2;
+  border: none;
+  color: blue;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+/* Style for the container_add */
+.container_add {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+}
+
+/* Style for the comment form */
+.container_add form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+/* Style for the comment text area */
+.card-text-coment {
+  resize: none;
+  height: 80px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Style for the comment submit button */
+.container_add button {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  padding: 10px 20px;
+  border: none;
+  background-color: blue;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+}
+
+input[type=text] {
+  border: 2px solid red;
+  border-radius: 4px;
+}

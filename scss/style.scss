@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Roboto:ital,wght@1,300&display=swap");
+
+@import "register.scss";
+body {
+  background-color: $bcolor;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.container_nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $header-color;
+  color: $bcolor;
+  height: 60px;
+  padding: 0 20px;
+
+  .nav-left {
+    h1 {
+      margin: 0;
+      font-size: px;
+      font-weight: 600;
+      display: inline-block;
+    }
+    h2 {
+      margin: 0;
+      display: inline-block;
+      text-align: center;
+      font-size: 24px;
+      font-weight: 600;
+    }
+  }
+
+  .nav-right {
+    h1 {
+      margin: 0;
+      font-size: 24px;
+      font-weight: 600;
+    }
+  }
+  .btn_reg {
+    background-color: $bcolor;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .btn_reg:hover {
+    color: $header-color;
+  }
+}
+.card {
+  background-color: $header-color;
+  color: $bcolor;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  width: calc(33.33% - 20px);
+  height: 320px;
+  float: left;
+  margin-right: 10px;
+  margin-left: 10px;
+  box-sizing: border-box;
+
+  .card-body {
+    padding: 15px;
+
+    .card-text {
+      font-size: 30px;
+      font-family: Arial, sans-serif;
+    }
+
+    .btn-outline-secondary {
+      color: $bcolor;
+      border-color: $bcolor;
+      font-size: 27px;
+      margin: 80px 90px 100px 120px;
+    }
+
+    .text-body-secondary {
+      color: $bcolor;
+    }
+  }
+}
